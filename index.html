@@ -18,16 +18,31 @@
                 <img src="images/logo.svg" alt="">
             </div>
             <div class="navbar">
-                <ul>
-                    <li>Features&nbsp;<img src="images/icon-arrow-down.svg" alt="icon-arrow-down"></li>
-                    <li>Company&nbsp;<img src="images/icon-arrow-down.svg" alt="icon-arrow-down"></li>
-                    <li>Careers</li>
-                    <li>About</li>
-                </ul>
-                <div class="login">
-                    <button id="input">Login</button>
-                    <button>Register</button>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()">Features&nbsp;
+                        <img src="images/icon-arrow-down.svg" alt="icon-arrow-down">
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                    </div>
+                    <button class="dropbtn" onclick="myFunction()">Company&nbsp;
+                        <img src="images/icon-arrow-down.svg" alt="icon-arrow-down">
+                    </button>
+                    <div class="dropdown-content" id="myDropdown2">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <a href="#">Careers</a>
+                    <a href="#">About</a>
                 </div>
+            </div>
+            <div class="login">
+                <button id="input">Login</button>
+                <button>Register</button>
             </div>
         </nav>
         <section>
@@ -49,5 +64,6 @@
             </div>
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
