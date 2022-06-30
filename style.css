@@ -18,17 +18,18 @@
   .container {
     background-color: var(--almost-white);
     width: 1440px;
-    height: 100vh;
     display: flex;
     flex-direction: column;
   }
 
   nav {
     display: flex;
-    align-items: center;
+    margin: 1.8em auto;
+    justify-content: space-between;
   }
 
   .logo {
+    float: left;
     margin: 2rem;
   }
 
@@ -42,8 +43,13 @@
 
   .navbar { 
     display: flex;
-    margin-top: -.7rem;
+    margin-top: -.5rem;
     color: var(--medium-gray);
+    align-items: center;
+  }
+
+  .navbar-mobile {
+    display: none;
   }
 
   .dropdown {
@@ -51,10 +57,10 @@
     font-weight: 500; 
   }
 
-  .dropdown a {
+  .links a {
     font-size: 16px;   
     color: var(--medium-gray);
-    padding: 14px 20px;
+    padding: 15px;
     text-decoration: none;
   }
 
@@ -87,8 +93,8 @@
   }
 
   .login {
-    position: relative;
-    left: 30vw;
+    margin-top: -.7rem;
+    margin-right: 2rem;
   }
 
   .login button {
@@ -115,13 +121,13 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;  
-    padding: 8rem 10rem;
+    padding: 8rem;
     width: 85%;      
   }
 
   .left-column h1 {
     color: var(--almost-black); 
-    margin-top: 1.5rem;  
+    margin-top: 1rem;  
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
     font-size: 4.5em;
@@ -150,12 +156,16 @@
   }
 
   .right-column {
-    margin: 0 auto;
+    width: 435px;
+    height: 68.3%;
+    background-image: url('images/image-hero-desktop.png');
+    margin: 4.5rem 8rem auto auto;
+    transform: scale(112%);
   }
 
   .right-column img {
     position: relative;
-    top: 4rem;
+    top: 5rem;
     right: 3rem;
   }
 
@@ -167,4 +177,21 @@
 
   .footer img {
     margin-right: 2rem;
+  }
+
+  @media screen and (max-width: 376px) {
+    .container {
+      width: 375px;
+      height: 780px;
+    }
+    .navbar {
+      display: none;
+    }
+    .navbar-mobile {
+      display: flex;
+    }
+    section {
+      display: flex;
+      flex-direction: column;
+    }
   }
