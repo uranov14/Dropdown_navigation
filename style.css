@@ -32,27 +32,69 @@
     margin: 2rem;
   }
 
-  .navbar {
+  button {
+    font-size: 16px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .navbar { 
     display: flex;
-    align-items: center;
     margin-top: -.7rem;
     color: var(--medium-gray);
   }
 
-  ul {
+  .dropdown {
     display: flex;
-    list-style: none;
+    font-weight: 500; 
+  }
+
+  .dropdown a {
+    font-size: 16px;   
+    color: var(--medium-gray);
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 7vh;
+    background-color: var(--almost-white);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .show {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: var(--medium-gray);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
   }
 
   .login {
     position: relative;
-    left: 33rem;
+    left: 30vw;
   }
 
-  button {
+  .login button {
     background-color: var(--almost-white);
     border: 2px solid lightslategrey;
-    border-radius: 15px;
+    border-radius: 10px;
     color: var(--medium-gray);
     width: 100px;
     height: 40px;
@@ -60,13 +102,6 @@
 
   #input {
     border: none;
-  }
-
-  li {
-    margin-right: 2rem;
-    display: flex;
-    align-items: center;
-    font-size: smaller;
   }
 
   section {
@@ -106,10 +141,11 @@
 
   #btn_learn {
     background-color: var(--almost-black);
+    border-radius: 15px;
     color: var(--almost-white);
     font-size: large;
     width: 160px;
-    height: 60px;
+    height: 55px;
     margin-top: 1em;
   }
 
