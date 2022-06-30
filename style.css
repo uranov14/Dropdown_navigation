@@ -30,7 +30,7 @@
 
   .logo {
     float: left;
-    margin: 2rem;
+    margin: 1.7em;
   }
 
   button {
@@ -43,7 +43,7 @@
 
   .navbar { 
     display: flex;
-    margin-top: -.5rem;
+    margin-top: -.7rem;
     color: var(--medium-gray);
     align-items: center;
   }
@@ -131,6 +131,7 @@
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
     font-size: 4.5em;
+    width: 30rem;
   }
 
   .content {
@@ -163,12 +164,6 @@
     transform: scale(112%);
   }
 
-  .right-column img {
-    position: relative;
-    top: 5rem;
-    right: 3rem;
-  }
-
   .footer {
     display: flex;
     align-items: center;
@@ -181,10 +176,13 @@
 
   @media screen and (max-width: 376px) {
     .container {
-      width: 375px;
+      max-width: 375px;
       height: 780px;
     }
     .navbar {
+      display: none;
+    }
+    .login {
       display: none;
     }
     .navbar-mobile {
