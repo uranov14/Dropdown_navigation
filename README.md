@@ -9,7 +9,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/uranov14/Dropdown_navigation)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://uranov14.github.io/Dropdown_navigation/)
 
 ### Built with
 
