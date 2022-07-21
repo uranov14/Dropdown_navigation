@@ -8,8 +8,8 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/uranov14/Dropdown_navigation)
-- Live Site URL: [Add live site URL here](https://uranov14.github.io/Dropdown_navigation/)
+- Solution URL: [Solution URL](https://github.com/uranov14/Dropdown_navigation)
+- Live Site URL: [Live site URL](https://uranov14.github.io/Dropdown_navigation/)
 
 ### Built with
 
@@ -18,10 +18,9 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/uranov14)
+- Frontend Mentor - [uranov](https://www.frontendmentor.io/profile/uranov14)
